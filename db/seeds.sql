@@ -2,13 +2,13 @@ INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES ('Jason', 'Gabianelli', 1, 1),
        ('Joe', 'Shmoe', 1, 1);
 
-INSERT INTO department (name)
+INSERT INTO department (dept_name)
 VALUES ('sales'),
        ('R and D'),
        ('HR'),
        ('Finnance');
 
-INSERT INTO role (name, salary, department_id)
+INSERT INTO role (role_name, salary, department_id)
 VALUES ('Sales Lead', 70000, 1),
        ('Sales Rep', 70000, 1),
        ('Lead Reasearch Person', 80000, 2),
