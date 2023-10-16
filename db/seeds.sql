@@ -1,7 +1,3 @@
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
-VALUES ('Jason', 'Gabianelli', 1, 1),
-       ('Joe', 'Shmoe', 1, 1);
-
 INSERT INTO department (dept_name)
 VALUES ('sales'),
        ('R and D'),
@@ -17,3 +13,7 @@ VALUES ('Sales Lead', 70000, 1),
        ('HR Support Person', 50000, 3),
        ('Finnance Lead', 80000, 4),
        ('Finnance Support', 60000, 4);
+
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
+VALUES ('Jason', 'Gabianelli', 1, 1),
+       ('Joe', 'Shmoe', 1, 1);
